@@ -1,6 +1,6 @@
 import type { UnitOfWork, TransactionContext } from "../../domain/ports/unit-of-work";
 import { WalletVersionConflictError } from "../../domain/ports/wallet.repository";
-import type { Clock } from "../../shared/clocks";
+import type { Clock } from "../../shared/clock";
 import type { IdGenerator } from "../../shared/id-generator";
 import { Money, type MoneyProps } from "../../domain/wallet/money";
 import type { Wallet } from "../../domain/wallet/wallet";
