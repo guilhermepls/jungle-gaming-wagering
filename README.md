@@ -12,8 +12,8 @@ Servico finaneiro distribuído para processamento de transações de apostas com
 - AWS SQS via LocalStack
 
 ## Setup 
-\`\`\`bash
+```bash
 cp .env.example .env
-docker compose up -d 
-bun install 
-\`\`\`
+docker compose up -d
+bun install
+```
