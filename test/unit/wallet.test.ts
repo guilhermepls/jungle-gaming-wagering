@@ -4,7 +4,7 @@ import { Wallet } from "../../src/domain/wallet/wallet";
 import {
 	InsufficientBalanceError,
 	WalletCurrencyMismatchError,
-} from "../../src/domain/wallet/wallet.erros";
+} from "../../src/domain/wallet/wallet.errors";
 import { LedgerDirection } from "../../src/domain/wallet/wallet-ledger-entry";
 
 const NOW = new Date("2026-08-30T12:00:00.000Z");

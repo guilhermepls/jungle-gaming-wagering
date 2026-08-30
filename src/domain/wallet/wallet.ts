@@ -1,5 +1,5 @@
 import { Money, type MoneyProps } from "./money";
-import { InsufficientBalanceError, WalletCurrencyMismatchError } from "./wallet.erros";
+import { InsufficientBalanceError, WalletCurrencyMismatchError } from "./wallet.errors";
 import { LedgerDirection, WalletLedgerEntry } from "./wallet-ledger-entry";
 
 export interface OpenWalletProps {
